@@ -1,0 +1,19 @@
+,[RF] Logistic Regression,[RF] Support Vector Machines (Linear Kernel),[RF] Support Vector Machines (Radial Basis Kernel),[RF] Support Vector Machines (Sigmoid Kernel),[RF] Gaussian Naive Bayes,[RF] Random Forest,[PPI] Logistic Regression,[PPI] Support Vector Machines (Linear Kernel),[PPI] Support Vector Machines (Radial Basis Kernel),[PPI] Support Vector Machines (Sigmoid Kernel),[PPI] Gaussian Naive Bayes,Ensemble Model
+sample_type_PT,68,68,68,68,68,68,68,68,68,68,68,68
+sample_type_M,218,218,218,218,218,218,218,218,218,218,218,218
+age_0,3,3,3,3,3,3,3,3,3,3,3,3
+age_20,29,29,29,29,29,29,29,29,29,29,29,29
+age_40,109,109,109,109,109,109,109,109,109,109,109,109
+age_60,124,124,124,124,124,124,124,124,124,124,124,124
+age_80,21,21,21,21,21,21,21,21,21,21,21,21
+gender_male,181,181,181,181,181,181,181,181,181,181,181,181
+gender_female,105,105,105,105,105,105,105,105,105,105,105,105
+bmi_normal,92,92,92,92,92,92,92,92,92,92,92,92
+bmi_overweight,107,107,107,107,107,107,107,107,107,107,107,107
+bmi_obese,86,86,86,86,86,86,86,86,86,86,86,86
+race_white,271,271,271,271,271,271,271,271,271,271,271,271
+race_asian,10,10,10,10,10,10,10,10,10,10,10,10
+race_not_reported,5,5,5,5,5,5,5,5,5,5,5,5
+ethnicity_hispanic,6,6,6,6,6,6,6,6,6,6,6,6
+ethnicity_not_hispanic,271,271,271,271,271,271,271,271,271,271,271,271
+ethnicity_not_reported,9,9,9,9,9,9,9,9,9,9,9,9

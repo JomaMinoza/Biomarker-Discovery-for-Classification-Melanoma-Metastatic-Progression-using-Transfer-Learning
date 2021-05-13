@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="S100A7 <= -0.183\ngini = 0.311\nsamples = 188\nvalue = [55, 231]\nclass = Metastatic", fillcolor="#68b4eb"] ;
+1 [label="KRT17 <= -0.141\ngini = 0.203\nsamples = 164\nvalue = [29, 224]\nclass = Metastatic", fillcolor="#53aae8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="PVRL4 <= -0.233\ngini = 0.064\nsamples = 115\nvalue = [6, 175]\nclass = Metastatic", fillcolor="#40a0e6"] ;
+1 -> 2 ;
+3 [label="KRT17 <= -0.141\ngini = 0.027\nsamples = 88\nvalue = [2, 142]\nclass = Metastatic", fillcolor="#3c9ee5"] ;
+2 -> 3 ;
+4 [label="gini = 0.117\nsamples = 22\nvalue = [2, 30]\nclass = Metastatic", fillcolor="#46a4e7"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 66\nvalue = [0, 112]\nclass = Metastatic", fillcolor="#399de5"] ;
+3 -> 5 ;
+6 [label="age_at_index <= -0.36\ngini = 0.193\nsamples = 27\nvalue = [4, 33]\nclass = Metastatic", fillcolor="#51a9e8"] ;
+2 -> 6 ;
+7 [label="gini = 0.0\nsamples = 14\nvalue = [0, 21]\nclass = Metastatic", fillcolor="#399de5"] ;
+6 -> 7 ;
+8 [label="gini = 0.375\nsamples = 13\nvalue = [4, 12]\nclass = Metastatic", fillcolor="#7bbeee"] ;
+6 -> 8 ;
+9 [label="C7 <= -0.428\ngini = 0.435\nsamples = 49\nvalue = [23, 49]\nclass = Metastatic", fillcolor="#96cbf1"] ;
+1 -> 9 ;
+10 [label="gini = 0.311\nsamples = 17\nvalue = [21, 5]\nclass = Primary Tumor", fillcolor="#eb9f68"] ;
+9 -> 10 ;
+11 [label="S100A7A <= -0.145\ngini = 0.083\nsamples = 32\nvalue = [2, 44]\nclass = Metastatic", fillcolor="#42a1e6"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 20\nvalue = [0, 29]\nclass = Metastatic", fillcolor="#399de5"] ;
+11 -> 12 ;
+13 [label="gini = 0.208\nsamples = 12\nvalue = [2, 15]\nclass = Metastatic", fillcolor="#53aae8"] ;
+11 -> 13 ;
+14 [label="S100A7A <= -0.033\ngini = 0.334\nsamples = 24\nvalue = [26, 7]\nclass = Primary Tumor", fillcolor="#eca36e"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+15 [label="gini = 0.457\nsamples = 12\nvalue = [11, 6]\nclass = Primary Tumor", fillcolor="#f3c6a5"] ;
+14 -> 15 ;
+16 [label="gini = 0.117\nsamples = 12\nvalue = [15, 1]\nclass = Primary Tumor", fillcolor="#e78946"] ;
+14 -> 16 ;
+}

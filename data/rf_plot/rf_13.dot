@@ -1,0 +1,24 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="C7 <= -0.413\ngini = 0.366\nsamples = 187\nvalue = [69, 217]\nclass = Metastatic", fillcolor="#78bced"] ;
+1 [label="KRT17 <= -0.141\ngini = 0.466\nsamples = 62\nvalue = [63, 37]\nclass = Primary Tumor", fillcolor="#f4cbad"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.334\nsamples = 21\nvalue = [7, 26]\nclass = Metastatic", fillcolor="#6eb7ec"] ;
+1 -> 2 ;
+3 [label="CLEC2A <= -0.04\ngini = 0.274\nsamples = 41\nvalue = [56, 11]\nclass = Primary Tumor", fillcolor="#ea9a60"] ;
+1 -> 3 ;
+4 [label="gini = 0.444\nsamples = 22\nvalue = [22, 11]\nclass = Primary Tumor", fillcolor="#f2c09c"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 19\nvalue = [34, 0]\nclass = Primary Tumor", fillcolor="#e58139"] ;
+3 -> 5 ;
+6 [label="KRT6B <= -0.151\ngini = 0.062\nsamples = 125\nvalue = [6, 180]\nclass = Metastatic", fillcolor="#40a0e6"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="KRTDAP <= -0.184\ngini = 0.012\nsamples = 109\nvalue = [1, 167]\nclass = Metastatic", fillcolor="#3a9ee5"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 97\nvalue = [0, 152]\nclass = Metastatic", fillcolor="#399de5"] ;
+7 -> 8 ;
+9 [label="gini = 0.117\nsamples = 12\nvalue = [1, 15]\nclass = Metastatic", fillcolor="#46a4e7"] ;
+7 -> 9 ;
+10 [label="gini = 0.401\nsamples = 16\nvalue = [5, 13]\nclass = Metastatic", fillcolor="#85c3ef"] ;
+6 -> 10 ;
+}
